@@ -50,7 +50,7 @@ For our projects we need [Java](https://www.java.com/download/ie_manual.jsp) and
 The projects in our list are assignments focusing on different skills in **Core Java** needed to build out a well-rounded Java skill set; progressing in difficulty as the list continues.
 
 
-1. [Introduction](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/Introduction.java)
+1. [Introduction](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/01-Book.java)
 2. [Looping](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/02-Employee.java)
 3. [Arrays and Strings](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/03-Vowels-Consonants.java)
 4. [Object-Oriented Programming](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/04-Banking-App.java)

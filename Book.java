@@ -1,12 +1,11 @@
-package jan30;
-
 import java.util.Scanner;
 
-public class Book {
+public class Book 
 
+{
+    public static void main(String[] args) 
 	
-	public static void main(String[] args) {
-		
+	{
 		Scanner sc=new Scanner(System.in);
 
 		System.out.println("Enter value for name:");

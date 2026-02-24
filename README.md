@@ -55,9 +55,9 @@ The projects in our list are assignments focusing on different skills in **Core 
 3. [Arrays and Strings](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/03-Vowels-Consonants.java)
 4. [Object-Oriented Programming](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/04-Banking-App.java)
 5. [Constructor](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/05-Constructor.java)
-6. [Abstract Classes and Interfaces](https://github.com/ajitagupta/core-java-projects/blob/main/Parent.java)
-7. [Exceptions](https://github.com/ajitagupta/core-java-projects/blob/main/ThrowPositiveException)
-8. [Multithreading](https://github.com/ajitagupta/core-java-projects/blob/main/RunnableTest.java)
+6. [Abstract Classes and Interfaces](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/06-Abstract.java)
+7. [Exceptions](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/07-Exception.java)
+8. [Multithreading](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/08-Test.java)
 9. [Java 8 Features](https://github.com/ajitagupta/core-java-projects/blob/main/README.md#9-java-8-features)
 10. [Collections](https://github.com/ajitagupta/core-java-projects/blob/main/EmployeeCRUDAPI.java)
 

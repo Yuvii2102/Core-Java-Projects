@@ -130,16 +130,20 @@ Now let's have a look at a menu-driven banking application: `BankingApp.java`.
 
 The user must input his bank information. Then, a menu appears:
 
-<img width="2944" height="1080" alt="Bank-Output-1" src="https://github.com/user-attachments/assets/b499999a-6eb0-4ffa-8c90-6bdbd2a1020c" />
+
+<img width="964" height="351" alt="Bank-Output-1" src="https://github.com/user-attachments/assets/8b7eaad6-939a-4296-9cc6-c62b73f11146" />
 
 
-<img width="2944" height="1080" alt="Bank-Output-2" src="https://github.com/user-attachments/assets/59036118-e091-484d-b45b-77b58349a2d7" />
+<img width="968" height="354" alt="Bank-Output-2" src="https://github.com/user-attachments/assets/963d4a00-4e58-477e-b47e-ea358db9a521" />
+
 
 ![BankingApp1](https://i.ibb.co/gV4h78L/Banking-App1.png "BankingApp1")
 
-After picking an option the instruction is carried out until the loop exits (Option 5):
+After picking an option the instruction is carried out until the loop exits :
 
-<img width="2944" height="1080" alt="Bank-Output-3" src="https://github.com/user-attachments/assets/f3218ba7-d75c-4664-a113-60a5e5aa6189" />
+<img width="912" height="352" alt="Bank-Output-3" src="https://github.com/user-attachments/assets/d8ec0aef-fa84-45da-902a-b4865162a509" />
+
+
 
 ![BankingApp2](https://i.ibb.co/9yr7v2X/Banking-App2.png "BankingApp2")
 
@@ -194,78 +198,45 @@ one of them must provide waiting time with the `join` method.
 
 `RunnableTest.java` is an example of calling the 10's table from two different threads.
 
+<img width="967" height="356" alt="Multi" src="https://github.com/user-attachments/assets/cf2b146b-6de7-41ce-8e26-b343f6c90fe7" />
+
 ![RunnableTest.java](https://i.ibb.co/NZXMLmv/Runnable-Test-java.png "RunnableTest.java")
+
+
+<img width="958" height="346" alt="Join" src="https://github.com/user-attachments/assets/4828eb91-6ff2-4c03-8ae0-64fe5acddc75" />
+
 
 ### b) Synchronization
 one can use synchronization. Synchronization locks an object. This is used in booking systems, e.g. seat-booking in railways. There are synchronized methods and synchronized blocks available, each marked with the keyword `synchronized`. We use them for proper execution (with locks) of code.
 
-## 9. Java 8 Features
-
-The significant reason for introducing Java 8 was to introduce conciseness in the code. It now has a few concepts of functional programming now, e.g. Lambda expressions.
-
-### Lambda Expressions
-Lambda is an anonymous function, i.e. it doesn't require a name, return type, access modifier - just the body. In lambda expressions a method is created by reference with operator and body - no function name or object is required.
-
-Lambda expressions do not support normal interface but functional interfaces only.
-
-Method expressions are replacements of lambda expressions. They are used to refer method of the functional interface to an existing method, mainly for code reusability. There are three types: a) We reference the method using object of the class, b) we use the static method with `::` or we use a c) constructor.
-
-### Functional Interface
-A functional interface contains only one single abstract method (SAM) (but any number of static and default methods). It takes as annotation `@FunctionalInterface` to create it. Important in-built example: `Runnable`.
-
-A functional interface depends on lambda expressions to be executed. It provides reference to lambda expressions (relationship). To call the expression we need a functional interface.
-
-A consumer is a predefined function interface containing only a single argument. Interface and methods are not required. accept is the in-built method used to call the consumer operation with a parameter returning nothing.
-
-A biconsumer works similarly, but with the difference that it can take two arguments.
-
-Java has no in-built functional interfaces that can take 3 arguments or more.
-
-### Stream API
-If you want to process bulk objects of collection then you should go for Streams concept. Streams is a special iterator class that allows processing collections of objects in a functional manner, e.g. fetch all objects from list whose value is greater than 15.
-
-Multiple lines of code are reduced to one line of code with streams.
-
-Allowed operations: filter (reduces number of objects), map (performs operation and creates another object for each object), reduce, count, limit, foreach
-
-### Default and Static Methods
-When you mark an interface method as default you can add its body.
-
-This playlist is recommended for [further reading](https://www.youtube.com/watch?v=oUdENE7ljjw&list=PLyHJZXNdCXsdeusn4OM33415DCMQ6sUKy).
-
-Example: `DefaultMaths.java`
 
 ## 10. Collections
 
-The Collections framework provides unified architecture for manipulating and representing collections. A well designed framework can improve your productivity and provide ease of maintenance.
+Collections = Used to store multiple objects dynamically.
 
-The Collections framework is contained in `java.util` package. It can perform following activity: a) Add objects to collection, b) Remove objects from collection, c) Search for an object in collection and d) Retrieve/get object from collection.
+Most used collections:
 
-Collection framework contains different types of collections such as lists (unordered collection of data, duplicate data allowed, index starts from 0), sets (unordered collection of data, duplication not allowed), maps (key-value pair, duplication not allowed), stacks, queues, etc.
+i]   ArrayList
 
-In an Arraylist the memory is dynamically located contiguously at the end. In a LinkedList your element can be added anywhere in the list, specified by the index.
+ii]  HashSet
 
-![Collections](https://i.ibb.co/fHfz1gq/Collections.png "Collections")
+iii] HashMap
 
-Source: EduBridge
 
-We provide an input-based arraylist example inside `UserDefinedArrayList.java`.
+✔ ArrayList → Allows duplicates
+✔ HashSet → No duplicates
+✔ HashMap → Key-Value pairs
+✔ All are in java.util package
 
-![UserDefinedArrayList Class](https://i.ibb.co/CB8LMHt/User-Defined-Array-List-java.png "UserDefinedArrayList Class")
 
-### Larger Project: Employee CRUD API
+i]   <img width="965" height="358" alt="A L" src="https://github.com/user-attachments/assets/e6e86cee-448c-450e-9f7a-d4a5d0a84fa4" />
 
-Now let's for a change have a look at a menu-driven Employee CRUD application: `EmployeeCRUDAPI.java`.
+ii]  <img width="963" height="350" alt="H S" src="https://github.com/user-attachments/assets/d25aa918-e204-40d2-864d-d83cf512d5a8" />
 
-The user can add, delete, search for and display employee information. First, a menu appears:
 
-![EmployeeCRUD1](https://i.ibb.co/J3HVSY4/Employee-CRUD1.png "EmployeeCRUD1")
+iii] <img width="963" height="347" alt="H M" src="https://github.com/user-attachments/assets/cbb20001-dc55-474a-96dc-ccb5cc9fc444" />
 
-After picking an option the instruction is carried out (Option 1, 2, 3 or 4) until the loop exits (user input = 0):
 
-![EmployeeCRUD2](https://i.ibb.co/RQ93jcs/Employee-CRUD2.png "EmployeeCRUD2")
 
-## License
-![Public Domain](https://i.ibb.co/74t3hCb/public-domain.png "Public Domain")
 
-To the extent possible under law, Ajita Gupta has waived all copyright and related or neighboring rights to this work.
+

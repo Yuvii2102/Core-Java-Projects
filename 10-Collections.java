@@ -22,18 +22,25 @@ iii] Map – Stores key-value pairs
 ✔ Allows duplicate values
 ✔ Maintains insertion order
 
-import java.util.*;
+Example :     import java.util.ArrayList;
+              public class Main 
+              {
+              public static void main(String[] args)
+              {
 
-Example : public class ListExample {
-          public static void main(String[] args) {
-          ArrayList<String> names = new ArrayList<>();
+              ArrayList<String> names = new ArrayList<>();
 
-          names.add("Yuvi");
-          names.add("Babloo");
-          names.add("Yuvi");  // Duplicate allowed
+              names.add("Yuva");
+              names.add("Yuvi");
+              names.add("Babloo");
 
-          System.out.println(names);
+              System.out.println("Names in list:");
+              for(String name : names)
+              {
+              System.out.println(name);
+        }
     }
+}       
 
 
 2️⃣ Set (HashSet Example)
@@ -41,17 +48,21 @@ Example : public class ListExample {
 ✔ Does NOT allow duplicates
 ✔ Order is not guaranteed
 
-import java.util.*;
+import java.util.HashSet;
 
-public class SetExample {
-    public static void main(String[] args) {
-        HashSet<String> names = new HashSet<>();
+public class Main 
+{
+public static void main(String[] args) 
+{
 
-        names.add("Yuvi");
-        names.add("Babloo");
-        names.add("Yuvi");  // Duplicate not allowed
+        HashSet<String> cities = new HashSet<>();
 
-        System.out.println(names);
+        cities.add("Mysuru");
+        cities.add("Bangalore");
+        cities.add("Mysuru"); // duplicate
+
+        System.out.println("Cities:");
+        System.out.println(cities);
     }
 }
 
@@ -62,9 +73,10 @@ public class SetExample {
 ✔ Keys must be unique
 
 import java.util.*;
-
-public class MapExample {
-    public static void main(String[] args) {
+public class MapExample 
+{
+    public static void main(String[] args) 
+{
         HashMap<Integer, String> students = new HashMap<>();
 
         students.put(1, "Yuvi");

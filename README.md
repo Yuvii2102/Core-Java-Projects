@@ -143,24 +143,28 @@ In this concept we'll tackle a question: Counting the number of vowels and conso
 
 The purpose of OOP is to improve code readability and reusability. Data is accessed and controlled. Code is modified and maintained. All this is easier with object-oriented programming.
 
-The four pillars of OOP are 
-a) inheritance
-b) polymorphism  
-c) encapsulation
-d) abstraction.
+- The four pillars of OOP are:
+  
+  a) inheritance
+  
+  b) polymorphism
+  
+  c) encapsulation
+  
+  d) abstraction
 
-A class stands at the heart of OOP. It is a blueprint of an object, and an object is an instance or a copy of a class. An object is also a runtime entity with an identity, state, and behavior - all described by methods and variables. It is initialized using the `new` keyword.
+- A class stands at the heart of OOP. It is a blueprint of an object, and an object is an instance or a copy of a class. An object is also a runtime entity with an identity, state, and behavior - all described by methods    and variables. It is initialized using the `new` keyword.
 
 ### Inheritance
 
-Inheritance is an OOPS concept where one class acquires the properties and methods of another class
+- Inheritance is an OOPS concept where one class acquires the properties and methods of another class
 
-Single
-multi-level/chained
-hierarchical
-hybrid (mix of first 3) inheritance. 
+i]   Single
+ii]  Multi-level/chained
+iii] Hierarchical
+iv] Hybrid (mix of first 3) inheritance. 
 
-Class can access properties of another class. First class is called parent-/base-/superclass, second is called child-/derived-/subclass. Implemented using `extends` keyword. Multiple inheritance not supported.  
+- Class can access properties of another class. First class is called parent-/base-/superclass, second is called child-/derived-/subclass. Implemented using `extends` keyword. Multiple inheritance not supported.  
 <br/>
 
 <img width="640" height="152" alt="Inheritance" src="https://github.com/user-attachments/assets/e886901b-fb82-47a6-bc7a-7e96a7b3938a" />
@@ -170,18 +174,18 @@ Class can access properties of another class. First class is called parent-/base
 
 ### Polymorphism
 
-One name, many forms (poly: many, morphism: behavior). One function can have multiple behaviors. 
+- One name, many forms (poly: many, morphism: behavior). One function can have multiple behaviors. 
 
-Ways: 
+- Ways: 
 a) function overloading/compile-time overloading: same name, different parameters 
 b) function overriding/runtime-/dynamic polymorphism / dynamic method dispatch: same name, same parameters (signature) / one reference (not object) for all subtypes, same method called on all, type of object being referred at time of call.
 
 ### Encapsulation
-Wrapping and binding of data in single unit. Variables declared in class with `private` keyword. Variables accessed with getters and setters. Methods inside the class.
+- Wrapping and binding of data in single unit. Variables declared in class with `private` keyword. Variables accessed with getters and setters. Methods inside the class.
 
 ### Abstraction
 
-Hiding implementation details of the code and exposing only necessary information to the user (example: ATM machine). Declared using `abstract` keyword. If method is abstract class must also be abstract. Class can't be instantiated, only extended in a child class.
+- Hiding implementation details of the code and exposing only necessary information to the user (example: ATM machine). Declared using `abstract` keyword. If method is abstract class must also be abstract. Class can't be instantiated, only extended in a child class.
 
 ### Larger Project: Banking System
 
@@ -205,11 +209,11 @@ After picking an option the instruction is carried out until the loop exits :
 
 ## 5. Constructor
 
-A Constructor is a special method in Java that is used to initialize objects.
+- A Constructor is a special method in Java that is used to initialize objects.
 
-Special type of method which is used to initialize/create an object. 
+- Special type of method which is used to initialize/create an object. 
 
-Rules: 
+- Rules: 
 1) Constructor and class name should be the same
 2) Constructor doesn't contain return type
 3) Constructor cannot be abstract, static or final. Types: 1) default, 2) parameterized. A constructor cannot be overridden, but it can be overloaded.
@@ -220,11 +224,11 @@ Watch this overloaded constructor in `Student.java`:
 
 ## 6. Abstract Classes and Interfaces
 
-An abstract class must be declared with the `abstract` keyword. It can have abstract and non-abstract methods. It can't be instantiated. It can have constructors and static or final methods. If you want to declare a method as abstract the class must also be abstract.
+- An abstract class must be declared with the `abstract` keyword. It can have abstract and non-abstract methods. It can't be instantiated. It can have constructors and static or final methods. If you want to declare a method as abstract the class must also be abstract.
 
-Interfaces are used to achieve multiple inheritance in Java - at a time you can extend multiple classes. An interface object cannot be created. An interface is defined by the `interface` keyword. By default, interface methods are abstract. A class to interface relationship is defined by `implements`. An interface to interface relationship is defined by `extends`.
+- Interfaces are used to achieve multiple inheritance in Java - at a time you can extend multiple classes. An interface object cannot be created. An interface is defined by the `interface` keyword. By default, interface methods are abstract. A class to interface relationship is defined by `implements`. An interface to interface relationship is defined by `extends`.
 
-An example of the two is provided in `Parent.java`. Here is the output:
+- An example of the two is provided in `Parent.java`. Here is the output:
 
 <img width="963" height="359" alt="Outputt" src="https://github.com/user-attachments/assets/46541f1e-e27d-4637-bb4c-daa64782cf9a" />
 

@@ -1,4 +1,4 @@
-<img width="640" height="152" alt="Inheritance" src="https://github.com/user-attachments/assets/43cba0e5-6a68-4743-9206-0a1776e7b6d4" /># Learning Java with Projects
+# Learning Java with Projects
 
 ![Static Badge](https://img.shields.io/badge/Core%20Java-Bootcamp-blue)
 
@@ -68,8 +68,6 @@ In our first two classes we cover the concepts class, data types, Wrapper classe
 
 Here, we create a `Book` class, which asks the user for three inputs: `book name, author name, publish status`, and then prints those values sequentially to the console.
 
-![Book Class](https://i.ibb.co/JrTWX3S/Book-Class.png "Book Class")
-
 <img width="994" height="349" alt="output" src="https://github.com/user-attachments/assets/656f9f71-a24d-43f7-bb39-dd41855c9f4f" />
 
 ## 2. Looping
@@ -80,7 +78,6 @@ Looping consists of a) decision-making constructs (if, ladder if else, switch) s
 
 Here, the user is supposed to enter his name, daily salary, and number of office attending-days that month. His monthly salary is calculated and used to justify to him his job designation.
 
-![Employee Class](https://i.ibb.co/Ch9rpCm/Employee-Class.png "Employee Class")
 
 <img width="999" height="344" alt="OUTPUT1" src="https://github.com/user-attachments/assets/b9098483-1e90-4002-8acd-449a4dc67421" />
 
@@ -93,7 +90,7 @@ In this class we tackle a common interview question: Counting the number of vowe
 
 <img width="996" height="352" alt="Output-3" src="https://github.com/user-attachments/assets/4403ecf9-a42b-4e89-a94c-6482fc021003" />
 
-![VowelsConsonants Class](https://i.ibb.co/4dTgNrb/Vowel-Constants-Class.png "VowelsConsonants Class")
+
 
 
 ## 4. Object-Oriented Programming
@@ -137,15 +134,12 @@ The user must input his bank information. Then, a menu appears:
 <img width="968" height="354" alt="Bank-Output-2" src="https://github.com/user-attachments/assets/963d4a00-4e58-477e-b47e-ea358db9a521" />
 
 
-![BankingApp1](https://i.ibb.co/gV4h78L/Banking-App1.png "BankingApp1")
 
 After picking an option the instruction is carried out until the loop exits :
 
 <img width="912" height="352" alt="Bank-Output-3" src="https://github.com/user-attachments/assets/d8ec0aef-fa84-45da-902a-b4865162a509" />
 
 
-
-![BankingApp2](https://i.ibb.co/9yr7v2X/Banking-App2.png "BankingApp2")
 
 ## 5. Constructor
 
@@ -165,7 +159,7 @@ An example of the two is provided in `Parent.java`. Here is the output:
 
 <img width="963" height="359" alt="Outputt" src="https://github.com/user-attachments/assets/46541f1e-e27d-4637-bb4c-daa64782cf9a" />
 
-![Abstract Classes & Interfaces](https://i.ibb.co/T8bszB7/Parent-java.png "Abstract Classes & Interfaces")
+
 
 ## 7. Exceptions
 
@@ -174,15 +168,13 @@ An exception is an error from which can be recovered. An error is an unavoidable
 ![Exceptions](https://github.com/user-attachments/assets/da34d96e-d5ce-40fa-88ce-36a21ee182c1)
 
 
-![Exception Types](https://i.ibb.co/Sw5qxzR/exceptions.jpg "Exception Types")
-
 To recover from exceptions we can make use of `try-catch`, `throw/throws`, or `finally` blocks. We can handle exceptions with multiple catch-blocks. The finally-block code executes at any cost. [See how throw and throws keywords work](https://www.c-sharpcorner.com/UploadFile/3614a6/throw-and-throws-in-java/).
 
 In `ThrowPositiveException.java` we see an example of a user-defined exception:
 
 <img width="962" height="359" alt="Exceptions-Result" src="https://github.com/user-attachments/assets/9cbbdcab-8f7f-4df9-8c37-616a553f126f" />
 
-![User-defined Exception](https://i.ibb.co/b15wRr5/Throw-Positive-Exception.png "User-defined Exception")
+
 
 
 ## 8. Multithreading
@@ -200,7 +192,6 @@ one of them must provide waiting time with the `join` method.
 
 <img width="967" height="356" alt="Multi" src="https://github.com/user-attachments/assets/cf2b146b-6de7-41ce-8e26-b343f6c90fe7" />
 
-![RunnableTest.java](https://i.ibb.co/NZXMLmv/Runnable-Test-java.png "RunnableTest.java")
 
 
 <img width="958" height="346" alt="Join" src="https://github.com/user-attachments/assets/4828eb91-6ff2-4c03-8ae0-64fe5acddc75" />
@@ -232,7 +223,6 @@ iii] HashMap
 i]   <img width="965" height="358" alt="A L" src="https://github.com/user-attachments/assets/e6e86cee-448c-450e-9f7a-d4a5d0a84fa4" />
 
 ii]  <img width="963" height="350" alt="H S" src="https://github.com/user-attachments/assets/d25aa918-e204-40d2-864d-d83cf512d5a8" />
-
 
 iii] <img width="963" height="347" alt="H M" src="https://github.com/user-attachments/assets/cbb20001-dc55-474a-96dc-ccb5cc9fc444" />
 

@@ -63,7 +63,7 @@ JDK stands for Java Development Kit. It refers to all the standard libraries use
 
 
 
-## - Projects
+# Projects
 
 For our projects we need [Java](https://www.java.com/download/ie_manual.jsp) and once this is in your system
 
@@ -247,15 +247,15 @@ Watch this overloaded constructor in `Student.java`:
 
 - Keywords Used in Exception Handling
 
-  try → Block of code that may cause exception
+  i]   try → Block of code that may cause exception
 
-  catch → Handles the exception
+  ii]  catch → Handles the exception
 
-  finally → Executes always
+  iii] finally → Executes always
 
-  throw → Used to explicitly throw exception
+  iv]  throw → Used to explicitly throw exception
 
-  throws → Declares exception
+  v]   throws → Declares exception
 
 To recover from exceptions we can make use of `try-catch`, `throw/throws`, or `finally` blocks. We can handle exceptions with multiple catch-blocks. The finally-block code executes at any cost. [See how throw and throws keywords work](https://www.c-sharpcorner.com/UploadFile/3614a6/throw-and-throws-in-java/).
 

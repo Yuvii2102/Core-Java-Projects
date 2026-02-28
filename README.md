@@ -5,6 +5,8 @@
 
 - Programming is like riding a bike; you can read about how to do it all day, but the best way to get started is to practice.
 
+- A Core Java Bootcamp is a structured training program where i learned the fundamentals of Java programming from basic to intermediate level.
+
 - Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems in 1995 (now owned by Oracle).
 
 - Java follows the principle:

@@ -6,41 +6,33 @@
 
 abstract class Parent 
 {
-	abstract void message();
+    abstract void message();
 }
 
-class Subclass1 extends Parentt 
+class Subclass1 extends Parent 
 {
-
-	@Override
-	void message() 
-  {
-		System.out.println("This is first subclass");
-	}
-
+    void message() 
+    {
+        System.out.println("This is first subclass");
+    }
 }
 
-class Subclass2 extends Parentt 
+class Subclass2 extends Parent 
 {
-
-	@Override
-	void message() {
-		System.out.println("This is second subclass");
-
-	}
-
+    void message() 
+    {
+        System.out.println("This is second subclass");
+    }
 }
 
-public class Test5 
+public class Main 
 {
+    public static void main(String[] args) 
+    {
+        Subclass1 sub1 = new Subclass1();
+        sub1.message();
 
-	public static void main(String[] args) 
-  {
-
-		Subclass1 sub1 = new Subclass1();
-		sub1.message();
-		Subclass2 sub2 = new Subclass2();
-		sub2.message();
-	}
-
+        Subclass2 sub2 = new Subclass2();
+        sub2.message();
+    }
 }

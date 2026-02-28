@@ -20,19 +20,19 @@
 🚀 Features of Java
 ---
 
-i]   Object-Oriented
+i]    Object-Oriented
 
-ii]  Platform Independent
+ii]   Platform Independent
 
-iii] Secure
+iii]  Secure
 
-iv]  Robust
+iv]   Robust
 
-v]   Multithreaded
+v]    Multithreaded
 
-vi]  Portable
+vi]   Portable
 
-vii] High Performance
+vii]  High Performance
 
 ---
 

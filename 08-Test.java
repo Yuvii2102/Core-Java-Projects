@@ -1,5 +1,3 @@
-package com.feb24;
-
 class Table implements Runnable 
 {
 

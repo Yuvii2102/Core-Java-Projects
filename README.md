@@ -1,51 +1,69 @@
-# Learning Java with Projects
+ # Learning Java with Projects
 
 ![Static Badge](https://img.shields.io/badge/Core%20Java-Bootcamp-blue)
 
 
-Programming is like riding a bike; you can read about how to do it all day, but the best way to get started is to practice.
+- Programming is like riding a bike; you can read about how to do it all day, but the best way to get started is to practice.
 
-Java is a great first programming language because it has a broad feature set and is used in a variety of applications, including desktop applications, Android apps, and iOS app development. Java is also in high demand, with [40 percent of respondents in Stack Overflow’s 2020 Developer Survey](https://insights.stackoverflow.com/survey/2020#most-popular-technologies) claiming to use the language.  
-<br/>
+- Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems in 1995 (now owned by Oracle).
+
+- Java follows the principle:
+  Write Once, Run Anywhere (WORA)
+
+- This means Java programs can run on any system that has the Java Virtual Machine (JVM).
+
+---
+  
+
+🚀 Features of Java
+---
+
+i]   Object-Oriented
+
+ii]  Platform Independent
+
+iii] Secure
+
+iv]  Robust
+
+v]   Multithreaded
+
+vi]  Portable
+
+vii] High Performance
+
+---
 
 ![Java applications](https://i.ibb.co/chYhgGj/uses-of-Java.jpg "Java applications")
 
-Source: TatvaSoft
-
-Learning to code in Java can help you get started in a variety of applicable fields, as depicted in the picture. Many of these opportunities are both lucrative and promising in their long-term job security. For example, software developers are projected to see 22 percent job growth by 2029, which is much higher than the average job growth projected for most fields.
+---
 
 
-## Yet another bootcamp
-
-One great way to seize this opportunity is to enroll in a **coding bootcamp**. This can provide you with a broad set of coding-related skills in a relatively short time frame, offering an introduction to crucial skills through hands-on, project-based learning. Bootcamps are also accessible to a variety of prior experience levels — everyone from career upskillers to complete beginners.
-
-When learning to code, it's important to have help available when you need it. We therefore pick an excellent and very experienced corporate instructor for learning Core Java while simultaneously honing our time management and accountability skills.
-
-## Before getting started
+## 🎯 Before getting started
 
 Now, before we immerse ourselves into writing code here's a few things you should know about Java:
 **Java is a portable, secure, robust, compiled, object-oriented, and platform-independent programming language.** This means it can run on any machine, regardless of what operating system is used.
 
-### What is programming?
+- ### What is programming?
 Computer programming refers to the detail or steps of instructions given to a computer in an appropriate computer language, which enable the computer to perform a variety of tasks in sequence. A set of instructions written in a computer language is typically called a program or code.
 
-### Java Virtual Machine
+- ### Java Virtual Machine
 JVM stands for Java Virtual Machine. It is our smallest unit. When you run the Java program, Java compiler first compiles your Java code to bytecode. Then, the JVM translates bytecode into native machine code (set of instructions that a computer's CPU executes directly).
 
-### Java Runtime Environment
+- ### Java Runtime Environment
 JRE (Java Runtime Environment) is a software package that provides Java class libraries, Java Virtual Machine (JVM), and other components that are required to run Java applications. If you need to run Java programs, but not develop them, JRE is what you need.
 
-### Java Development Kit
+- ### Java Development Kit
 JDK stands for Java Development Kit. It refers to all the standard libraries used in programming the software and a number of development tools (compilers, JavaDoc, Java Debugger, etc). When you download JDK, JRE is also downloaded with it.  
 <br/>
 
 ![JDK-JRE-JVM](https://i.ibb.co/MZp6Dj8/JDK-JRE-JVM.png "JDK-JRE-JVM")
 
-Source: GeeksforGeeks
 
-## Projects
 
-For our projects we need [Java](https://www.java.com/download/ie_manual.jsp) and once this is in your system, we'll need an editor, [Eclipse](https://www.eclipse.org/downloads/).
+## - Projects
+
+For our projects we need [Java](https://www.java.com/download/ie_manual.jsp) and once this is in your system
 
 The projects in our list are assignments focusing on different skills in **Core Java** needed to build out a well-rounded Java skill set; progressing in difficulty as the list continues.
 
@@ -61,8 +79,10 @@ The projects in our list are assignments focusing on different skills in **Core 
 9. [Java 8 Features](https://github.com/ajitagupta/core-java-projects/blob/main/README.md#9-java-8-features)
 10. [Collections](https://github.com/Yuvii2102/Core-Java-Projects/blob/main/10-Collections.java)
 
+---    
+
 ## 1. Introduction
-In our first two classes we cover the concepts class, data types, Wrapper classes, variable types (static, local, instance), arithmetics, and the Scanner class.
+Starting with the java cocepts, first i learned the concepts of class, data types, Wrapper classes, variable types (static, local, instance), arithmetics, and the Scanner class.
 
 `Book.java` is the corresponding assignment. 
 
@@ -72,7 +92,9 @@ Here, we create a `Book` class, which asks the user for three inputs: `book name
 
 ## 2. Looping
 
-Looping consists of a) decision-making constructs (if, ladder if else, switch) since they make logical decisions (true/false) based on the conditions provided, and b) conditional statements, which are the executable block of code (or branch to a specific code) dependent on certain conditions (while, do_while, for).
+Looping consists of 
+a) decision-making constructs (if, ladder if else, switch) since they make logical decisions (true/false) based on the conditions provided
+b) conditional statements, which are the executable block of code (or branch to a specific code) dependent on certain conditions (while, do_while, for).
 
 `Employee.java` is the corresponding assignment. 
 
@@ -84,7 +106,31 @@ Here, the user is supposed to enter his name, daily salary, and number of office
 
 ## 3. Arrays and Strings
 
-In this class we tackle a common interview question: Counting the number of vowels and consonants in a string array specified by the user.
+Array
+
+- An Array is a data structure in Java that is used to store multiple values of the same data type in a single variable.
+
+- Collection of elements of the same data type stored in contiguous memory locations.
+
+- Each element in an array is stored at a specific index position, starting from 0.
+
+Example - int[] numbers = {10, 20, 30, 40};
+
+- Stores same data type elements
+
+- Fixed size
+
+- Index starts from 0
+
+- Stored in continuous memory
+
+String 
+
+- A String in Java is an object that represents a sequence of characters.
+
+Example - String name = "Yuvi";
+
+In this concept we'll tackle a question: Counting the number of vowels and consonants in a string array specified by the user.
 
 `VowelsConsonants.java` contains the solution and here is a demo output:
 
@@ -97,22 +143,38 @@ In this class we tackle a common interview question: Counting the number of vowe
 
 The purpose of OOP is to improve code readability and reusability. Data is accessed and controlled. Code is modified and maintained. All this is easier with object-oriented programming.
 
-The four pillars of OOP are a) inheritance, b) polymorphism, c) encapsulation, and d) abstraction.
+The four pillars of OOP are 
+a) inheritance
+b) polymorphism  
+c) encapsulation
+d) abstraction.
 
 A class stands at the heart of OOP. It is a blueprint of an object, and an object is an instance or a copy of a class. An object is also a runtime entity with an identity, state, and behavior - all described by methods and variables. It is initialized using the `new` keyword.
 
 ### Inheritance
 
-Single, multi-level/chained, hierarchical, and hybrid (mix of first 3) inheritance. Class can access properties of another class. First class is called parent-/base-/superclass, second is called child-/derived-/subclass. Implemented using `extends` keyword. Multiple inheritance not supported.  
+Inheritance is an OOPS concept where one class acquires the properties and methods of another class
+
+Single
+multi-level/chained
+hierarchical
+hybrid (mix of first 3) inheritance. 
+
+Class can access properties of another class. First class is called parent-/base-/superclass, second is called child-/derived-/subclass. Implemented using `extends` keyword. Multiple inheritance not supported.  
 <br/>
 
 <img width="640" height="152" alt="Inheritance" src="https://github.com/user-attachments/assets/e886901b-fb82-47a6-bc7a-7e96a7b3938a" />
 
 ![Inheritance](https://i.ibb.co/ChxyfNW/inheritance-drawio.png "Inheritance")
 
+
 ### Polymorphism
 
-One name, many forms (poly: many, morphism: behavior). One function can have multiple behaviors. Ways: a) function overloading/compile-time overloading: same name, different parameters, b) function overriding/runtime-/dynamic polymorphism / dynamic method dispatch: same name, same parameters (signature) / one reference (not object) for all subtypes, same method called on all, type of object being referred at time of call.
+One name, many forms (poly: many, morphism: behavior). One function can have multiple behaviors. 
+
+Ways: 
+a) function overloading/compile-time overloading: same name, different parameters 
+b) function overriding/runtime-/dynamic polymorphism / dynamic method dispatch: same name, same parameters (signature) / one reference (not object) for all subtypes, same method called on all, type of object being referred at time of call.
 
 ### Encapsulation
 Wrapping and binding of data in single unit. Variables declared in class with `private` keyword. Variables accessed with getters and setters. Methods inside the class.
@@ -143,7 +205,14 @@ After picking an option the instruction is carried out until the loop exits :
 
 ## 5. Constructor
 
-Special type of method which is used to initialize/create an object. Rules: 1) constructor and class name should be the same, 2) constructor doesn't contain return type, 3) constructor cannot be abstract, static or final. Types: 1) default, 2) parameterized. A constructor cannot be overridden, but it can be overloaded.
+A Constructor is a special method in Java that is used to initialize objects.
+
+Special type of method which is used to initialize/create an object. 
+
+Rules: 
+1) Constructor and class name should be the same
+2) Constructor doesn't contain return type
+3) Constructor cannot be abstract, static or final. Types: 1) default, 2) parameterized. A constructor cannot be overridden, but it can be overloaded.
 
 Watch this overloaded constructor in `Student.java`:
 
@@ -163,10 +232,24 @@ An example of the two is provided in `Parent.java`. Here is the output:
 
 ## 7. Exceptions
 
-An exception is an error from which can be recovered. An error is an unavoidable runtime situation from which we can't recover. Exceptions can be checked/compile-time and unchecked/runtime exception.
+- An Exception is an unexpected event that occurs during program execution and disrupts the normal flow of the program.
+
+- In Java, exceptions are handled using Exception Handling to prevent program crashes.
+
 
 ![Exceptions](https://github.com/user-attachments/assets/da34d96e-d5ce-40fa-88ce-36a21ee182c1)
 
+- Keywords Used in Exception Handling
+
+  try → Block of code that may cause exception
+
+  catch → Handles the exception
+
+  finally → Executes always
+
+  throw → Used to explicitly throw exception
+
+  throws → Declares exception
 
 To recover from exceptions we can make use of `try-catch`, `throw/throws`, or `finally` blocks. We can handle exceptions with multiple catch-blocks. The finally-block code executes at any cost. [See how throw and throws keywords work](https://www.c-sharpcorner.com/UploadFile/3614a6/throw-and-throws-in-java/).
 
@@ -179,26 +262,29 @@ In `ThrowPositiveException.java` we see an example of a user-defined exception:
 
 ## 8. Multithreading
 
+- Multithreading is a process of executing multiple threads simultaneously within a single program.
+
+- It allows a program to perform multiple tasks at the same time, improving performance and CPU utilization.
+
+- In Java, multithreading is achieved using:
+
+i]  Thread class
+
+ii] Runnable interface
+
+
 A thread is a process / execution of a program. A thread gets created by extending the `Thread` class or by implementing `Runnable` interface, the latter allowing for more flexibility (multiple inheritance).
 
 To execute the thread we use the `start` method, which automatically calls the Thread class' `run` method.
 
 If multiple processes are running simultaneously there will be interleaving. To avoid this 
 
-### a) JOIN
-one of them must provide waiting time with the `join` method.
-
 `RunnableTest.java` is an example of calling the 10's table from two different threads.
 
 <img width="967" height="356" alt="Multi" src="https://github.com/user-attachments/assets/cf2b146b-6de7-41ce-8e26-b343f6c90fe7" />
 
-
-
 <img width="958" height="346" alt="Join" src="https://github.com/user-attachments/assets/4828eb91-6ff2-4c03-8ae0-64fe5acddc75" />
 
-
-### b) Synchronization
-one can use synchronization. Synchronization locks an object. This is used in booking systems, e.g. seat-booking in railways. There are synchronized methods and synchronized blocks available, each marked with the keyword `synchronized`. We use them for proper execution (with locks) of code.
 
 
 ## 10. Collections

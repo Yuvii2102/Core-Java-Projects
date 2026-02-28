@@ -63,7 +63,7 @@ JDK stands for Java Development Kit. It refers to all the standard libraries use
 
 
 
-# Projects
+## 📂 Projects
 
 For our projects we need [Java](https://www.java.com/download/ie_manual.jsp) and once this is in your system
 

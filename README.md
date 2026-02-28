@@ -70,6 +70,8 @@ Here, we create a `Book` class, which asks the user for three inputs: `book name
 
 ![Book Class](https://i.ibb.co/JrTWX3S/Book-Class.png "Book Class")
 
+<img width="994" height="349" alt="output" src="https://github.com/user-attachments/assets/656f9f71-a24d-43f7-bb39-dd41855c9f4f" />
+
 ## 2. Looping
 
 Looping consists of a) decision-making constructs (if, ladder if else, switch) since they make logical decisions (true/false) based on the conditions provided, and b) conditional statements, which are the executable block of code (or branch to a specific code) dependent on certain conditions (while, do_while, for).
@@ -80,11 +82,16 @@ Here, the user is supposed to enter his name, daily salary, and number of office
 
 ![Employee Class](https://i.ibb.co/Ch9rpCm/Employee-Class.png "Employee Class")
 
+<img width="999" height="344" alt="OUTPUT1" src="https://github.com/user-attachments/assets/b9098483-1e90-4002-8acd-449a4dc67421" />
+
+
 ## 3. Arrays and Strings
 
 In this class we tackle a common interview question: Counting the number of vowels and consonants in a string array specified by the user.
 
 `VowelsConsonants.java` contains the solution and here is a demo output:
+
+
 
 ![VowelsConsonants Class](https://i.ibb.co/4dTgNrb/Vowel-Constants-Class.png "VowelsConsonants Class")
 

@@ -292,7 +292,7 @@ If multiple processes are running simultaneously there will be interleaving. To 
 
 
 
-## 10. Collections
+## 9. Collections
 
 Collections = Used to store multiple objects dynamically.
 

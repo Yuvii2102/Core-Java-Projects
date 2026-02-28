@@ -1,4 +1,4 @@
-# Learning Java with Projects
+<img width="640" height="152" alt="Inheritance" src="https://github.com/user-attachments/assets/43cba0e5-6a68-4743-9206-0a1776e7b6d4" /># Learning Java with Projects
 
 ![Static Badge](https://img.shields.io/badge/Core%20Java-Bootcamp-blue)
 
@@ -91,9 +91,10 @@ In this class we tackle a common interview question: Counting the number of vowe
 
 `VowelsConsonants.java` contains the solution and here is a demo output:
 
-
+<img width="996" height="352" alt="Output-3" src="https://github.com/user-attachments/assets/4403ecf9-a42b-4e89-a94c-6482fc021003" />
 
 ![VowelsConsonants Class](https://i.ibb.co/4dTgNrb/Vowel-Constants-Class.png "VowelsConsonants Class")
+
 
 ## 4. Object-Oriented Programming
 
@@ -107,6 +108,8 @@ A class stands at the heart of OOP. It is a blueprint of an object, and an objec
 
 Single, multi-level/chained, hierarchical, and hybrid (mix of first 3) inheritance. Class can access properties of another class. First class is called parent-/base-/superclass, second is called child-/derived-/subclass. Implemented using `extends` keyword. Multiple inheritance not supported.  
 <br/>
+
+<img width="640" height="152" alt="Inheritance" src="https://github.com/user-attachments/assets/e886901b-fb82-47a6-bc7a-7e96a7b3938a" />
 
 ![Inheritance](https://i.ibb.co/ChxyfNW/inheritance-drawio.png "Inheritance")
 
@@ -127,9 +130,16 @@ Now let's have a look at a menu-driven banking application: `BankingApp.java`.
 
 The user must input his bank information. Then, a menu appears:
 
+<img width="2944" height="1080" alt="Bank-Output-1" src="https://github.com/user-attachments/assets/b499999a-6eb0-4ffa-8c90-6bdbd2a1020c" />
+
+
+<img width="2944" height="1080" alt="Bank-Output-2" src="https://github.com/user-attachments/assets/59036118-e091-484d-b45b-77b58349a2d7" />
+
 ![BankingApp1](https://i.ibb.co/gV4h78L/Banking-App1.png "BankingApp1")
 
 After picking an option the instruction is carried out until the loop exits (Option 5):
+
+<img width="2944" height="1080" alt="Bank-Output-3" src="https://github.com/user-attachments/assets/f3218ba7-d75c-4664-a113-60a5e5aa6189" />
 
 ![BankingApp2](https://i.ibb.co/9yr7v2X/Banking-App2.png "BankingApp2")
 
@@ -149,17 +159,24 @@ Interfaces are used to achieve multiple inheritance in Java - at a time you can 
 
 An example of the two is provided in `Parent.java`. Here is the output:
 
+<img width="963" height="359" alt="Outputt" src="https://github.com/user-attachments/assets/46541f1e-e27d-4637-bb4c-daa64782cf9a" />
+
 ![Abstract Classes & Interfaces](https://i.ibb.co/T8bszB7/Parent-java.png "Abstract Classes & Interfaces")
 
 ## 7. Exceptions
 
 An exception is an error from which can be recovered. An error is an unavoidable runtime situation from which we can't recover. Exceptions can be checked/compile-time and unchecked/runtime exception.
 
+![Exceptions](https://github.com/user-attachments/assets/da34d96e-d5ce-40fa-88ce-36a21ee182c1)
+
+
 ![Exception Types](https://i.ibb.co/Sw5qxzR/exceptions.jpg "Exception Types")
 
 To recover from exceptions we can make use of `try-catch`, `throw/throws`, or `finally` blocks. We can handle exceptions with multiple catch-blocks. The finally-block code executes at any cost. [See how throw and throws keywords work](https://www.c-sharpcorner.com/UploadFile/3614a6/throw-and-throws-in-java/).
 
 In `ThrowPositiveException.java` we see an example of a user-defined exception:
+
+<img width="962" height="359" alt="Exceptions-Result" src="https://github.com/user-attachments/assets/9cbbdcab-8f7f-4df9-8c37-616a553f126f" />
 
 ![User-defined Exception](https://i.ibb.co/b15wRr5/Throw-Positive-Exception.png "User-defined Exception")
 
